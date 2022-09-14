@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * main - alphabet
  * print_alphabet_x10 - print a - z ten times
  */
+
 void print_alphabet_x10(void)
 {
 	int i;
@@ -14,7 +16,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(j);
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
 
