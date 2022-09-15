@@ -23,7 +23,7 @@ void print_times_table(int n)
 				_putchar(z % 10 + '0');
 			}
 			else if (z > 9)
-			{ 
+			{
 				_putchar(' ');
 				_putchar(z / 10 + '0');
 				_putchar(z % 10 + '0');
@@ -33,10 +33,9 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(z + '0');
-                        }
+			}
 			else
-			_putchar(z + '0');
-
+				_putchar(z + '0');
 			if (y != n)
 			{
 				_putchar(',');
